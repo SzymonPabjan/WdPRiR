@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Zad2 {
+public class Zad2Watki {
 
 
     public static boolean checkPoint(int iterations, double inX, double inY) {
