@@ -164,7 +164,8 @@ public class Zad2Watki {
     public static void main(String[] args) throws IOException {
         List<Integer> sizes= Arrays.asList(32, 64, 128, 256, 512, 1024, 2048, 4096, 8192);
         getAverageGenerationTime(10, sizes);
-
+        Boolean[][] validityArray = validityArray(1024, 1024, -2.1, 0.6, -1.2, 1.2, 200);
+        saveImg(MandelbrotImg(1024,1024,validityArray));
         System.out.println("Done");
     }
 }
