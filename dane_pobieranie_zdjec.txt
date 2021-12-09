@@ -1,0 +1,11 @@
+Seq bez filtru:
+time_seq = 86.318428
+Seq z filrem:
+kernel_size = [1,2,3,4,5]
+kernel_time_seq = [92.9187353, 177.4007364, 341.6101907, 561.4779435, 854.8461265]
+
+Multi thread:
+time_thread = 45.6492236
+Multithread z filtrem:
+kernel_size = [1,2,3,4,5]
+kernel_time_threads = [92.6729292,145.0769437, 218.0690278, 325.9298232, 468.7461881]

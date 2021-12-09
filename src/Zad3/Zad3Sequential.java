@@ -113,8 +113,12 @@ public class Zad3Sequential {
 
 
     public static void main(String[] args) throws IOException {
-        //downloadAndSavePNGs();
+        downloadAndSavePNGs();
+        int[] size_arr = {1,2,3,4,5};
+        for(int i = 0; i < 5; i++){
+            downloadAndFilterAndSavePNGs(7,size_arr[i]);
+        }
         //downloadAndFilterAndSavePNGs(1,3);
-        downloadAndFilterAndSaveOnePNG(7,2);
+        //downloadAndFilterAndSaveOnePNG(7,2);
     }
 }

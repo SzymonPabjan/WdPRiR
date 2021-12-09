@@ -150,6 +150,13 @@ public class Zad3MultiThread {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         //downloadAndSavePNGs();
-        downloadAndFilterAndSavePNGs(1,1);
+        //downloadAndFilterAndSavePNGs(1,1);
+        int[] size_arr = {1,2,3,4,5};
+        for(int i = 0; i < 5; i++){
+            System.out.println();
+            System.out.println("Licze dla kernel = " + size_arr[i] + " :");
+            downloadAndFilterAndSavePNGs(7,size_arr[i]);
+            System.out.println();
+        }
     }
 }
